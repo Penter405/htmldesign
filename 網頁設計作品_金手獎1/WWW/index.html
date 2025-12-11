@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="退休,退休規劃,樂活生活,老年人">
+  <title>就是愛樂活</title>
+  <!-- Bootstrap -->
+  <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+  <link href="css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="icon" href="images/logo.png">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-xl navbar-light px-5 fixed-top">
+    <a class="navbar-brand ac aan mc b" href="#home">就是愛樂活</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav w-100 ar">
+        <li class="nav-item">
+          <a class="nav-link aan ac" href="#s1">
+            <span><i class="fa fa-compass"></i></span>
+            <div class="ac fc">
+              <div class="ch">關於退休</div>
+              <div class="en">About</div>
+            </div>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link aan ac" href="#s2">
+            <span><i class="fa fa-bell"></i></span>
+            <div class="ac fc">
+              <div class="ch">樂齡課程</div>
+              <div class="en">Course</div>
+            </div>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link aan ac" href="#s3">
+            <span><i class="fa fa-chart-bar"></i></span>
+            <div class="ac fc">
+              <div class="ch">熱門排行榜</div>
+              <div class="en">Top</div>
+            </div>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link aan ac" href="#s4">
+            <span><i class="fa fa-newspaper"></i></span>
+            <div class="ac fc">
+              <div class="ch">樂活資訊站</div>
+              <div class="en">Information</div>
+            </div>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link aan ac" href="#s5">
+            <span><i class="fa fa-comments"></i></span>
+            <div class="ac fc">
+              <div class="ch">長春留言板</div>
+              <div class="en">Board</div>
+            </div>
+          </a>
+        </li>
+        <li class="nav-item ac">
+          <div class="sb"><span class="nav-link ac m-2 cu"
+              onclick="window.open('index.html','_blank','top=100,left=200,width=500,height=750')" title="手機版"><i
+                class="fa fa-mobile-phone"></i></span></div>
+          <div class="sb"><span class="nav-link ac m-2 cu" onclick="login()" id="licon" title="登入"><i
+                class="fa fa-user"></i></span></div>
+          <a class="sb aan" href="#home" title="回頁首">
+            <span class="nav-link ac  m-2"><i class="fa fa-circle-up"></i></span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="mhp">
+    <div class="st">
+      <div class="nt">Chat <span class="yc">AI</span> with you 讓<span class="yc">愛</span>隨行</div><br>
+      <div class="tit mt-5 fa-bounce" style="animation-iteration-count: 2;"><span class="ttt">就是</span>愛樂活</div><br>
+      <h3 class="w mt-5">| 退休不是結束，活出精彩的退休時光，大膽愛自己</h3>
+      <div class="ac mt-5">
+        <div class="abtn" data-modal="#if">查看更多<span><i class="fa fa-arrow-right"></i></span></div>
+      </div>
+    </div>
+  </div>
+  <section id="home">
+    <div id="carouselExampleControls" class="carousel carousel-fade slide" data-pause="false" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleControls" data-slide-to="1"></li>
+        <li data-target="#carouselExampleControls" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="images/c1.png" alt="First slide">
+          <div class="carousel-caption st">
+            <div class="nt">Chat <span class="yc">AI</span> with you 讓<span class="yc">愛</span>隨行</div><br>
+            <div class="tit mt-5 fa-bounce" style="animation-iteration-count: 2;"><span class="ttt">就是</span>愛樂活</div>
+            <br>
+            <h3 class="w mt-5">| 退休不是結束，活出精彩的退休時光，大膽愛自己</h3>
+            <div class="ac mt-5">
+              <div class="abtn" data-modal="#if">查看更多<span><i class="fa fa-arrow-right"></i></span></div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/c2.png" alt="Second slide">
+          <div class="carousel-caption st">
+            <div class="nt">Chat <span class="yc">AI</span> with you 讓<span class="yc">愛</span>隨行</div><br>
+            <div class="tit mt-5"><span class="ttt">就是</span>愛樂活</div><br>
+            <h3 class="w mt-5">| 全新樂齡課程已經上現，更多精彩活動等您參與！</h3>
+            <div class="ac mt-5">
+              <div class="abtn" data-modal="#if">查看更多<span><i class="fa fa-arrow-right"></i></span></div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/c3.png" alt="Third slide">
+          <div class="carousel-caption st">
+            <div class="nt">Chat <span class="yc">AI</span> with you 讓<span class="yc">愛</span>隨行</div><br>
+            <div class="tit mt-5"><span class="ttt">就是</span>愛樂活</div><br>
+            <h3 class="w mt-5">| 留言抽獎活動進行中，只要留言，即可輕鬆抽大獎！</h3>
+            <div class="ac mt-5">
+              <div class="abtn" data-modal="#if">查看更多<span><i class="fa fa-arrow-right"></i></span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="s0">
+    <!-- ============about============== -->
+    <section id="s1">
+      <div class="container">
+        <div class="row mt-5">
+          <div class="col-lg-0 col-xl-6">
+            <div class="dot ac"><img src="images/s1i.png" alt="退休後生活圖片"></div>
+          </div>
+          <div class="col-lg-12 col-xl-6">
+            <div class="an ac">
+              <div class="numm ac fc">
+                <span class="bi"><i class="fa fa-compass fa-flip" style="animation-duration: 2s;"></i></span>
+                <span>/</span>
+                <span>0</span>
+                <span>1</span>
+              </div>
+              <div>
+                <div class="nt">About</div>
+                <div class="tit">關於退休</div>
+                <span>| 樂齡生活是一場充滿可能性的旅程，您準備好了嗎？</span>
+              </div>
+            </div>
+            <ul class="mt-5">
+              <li class="an my-4 ar">
+                <div class="icon ac"><img src="images/icon1.png" alt="icon"></div>
+                <div class="lt">
+                  <h5 class="mc b">活出精彩的退休時光</h5>
+                  <p>在近代，樂齡生活已經跳脫傳統「含飴弄孫」的框架，轉向一種積極主動、探索未知的生活方式。退休，不再只是年齡的標誌，而是人生另一個階段的開始。</p>
+                </div>
+              </li>
+              <li class="an my-4 ar">
+                <div class="icon ac"><img src="images/icon2.png" alt="icon"></div>
+                <div class="lt">
+                  <h5 class="mc b">學習與成長</h5>
+                  <p>終身學習的觀念在樂齡族中越來越普及。從烹飪課程到數位科技，他們不斷充實自我，甚至有人開始學習第二語言或藝術創作，找到全新的生活重心。</p>
+                </div>
+              </li>
+              <li class="an my-4 ar">
+                <div class="icon ac"><img src="images/icon3.png" alt="icon"></div>
+                <div class="lt">
+                  <h5 class="mc b">[小愛AI]聊天導覽機器人</h5>
+                  <p>本站有提供<span class="ic b">小愛AI</span>聊天導覽機器人，帶您快速瀏覽本站精華，並提供<span
+                      class="ic b">樂齡課程</span>，以優質的課程內容讓您在樂趣中學習，也歡迎踴躍<span
+                      class="ic b">留言</span>，與大家分享您的意見及想法，現在只要留言，即有機會抽中<span class="ic b">一萬元禮金</span>！</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ============product============== -->
+    <section id="s2">
+      <div class="container">
+        <div class="an ac">
+          <div class="num ac fc">
+            <span class="bi"><i class="fa fa-bell fa-flip" style="animation-duration: 2s;"></i></span>
+            <span>/</span>
+            <span>0</span>
+            <span>2</span>
+          </div>
+          <div>
+            <div class="nt">Course</div>
+            <div class="tit">樂齡課程</div>
+            <span>| 優質活動，精心設計，讓您在快樂中也能輕鬆學習！</span>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-12 col-md-4 p-3 cm">
+            <div class="ca bgw px-3 py-4">
+              <span class="bow">樂齡課程</span>
+              <div id="carouselExampleControls1" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleControls1" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleControls1" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleControls1" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100 br" src="images/b1.png" alt="First slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100 br" src="images/b2.png" alt="Second slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100 br" src="images/b3.png" alt="Third slide">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls1" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls1" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+              <h4 class="tt text-center mt-4">【免費課程】做出你的夢想—樂齡動手做</h4>
+              <p class="text-center ic n b">免費</p>
+              <div class="px-3">
+                <span>時間 | 每日上午9點～12點</span><br>
+                <span>日期 | 2025/01/29~31</span><br>
+                <span>地點 | 基隆市發財區成功路999號</span><br>
+                <span>講師 | 白小林先生</span><br>
+                <!-- <p></p> -->
+              </div>
+              <div class="mt-4 ac">
+                <div class="abtn bb ba">我要報名<span><i class="fa fa-check"></i></span></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 p-3 cm">
+            <div class="ca bgw px-3 py-4">
+              <span class="bow">樂齡課程</span>
+              <div id="carouselExampleControls2" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleControls2" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleControls2" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleControls2" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100 br" src="images/b4.png" alt="First slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100 br" src="images/b5.png" alt="Second slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100 br" src="images/b6.png" alt="Third slide">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls2" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls2" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+              <h4 class="tt text-center mt-4">【免費課程】香味四溢—妙齡廚房交流會</h4>
+              <p class="text-center ic n b">免費</p>
+              <div class="px-3">
+                <span>時間 | 下午3點～6點</span><br>
+                <span>日期 | 2025/02/21</span><br>
+                <span>地點 | 基隆市發財區成功路999號</span><br>
+                <span>講師 | 陳春嬌女士</span><br>
+                <!-- <p></p> -->
+              </div>
+              <div class="mt-4 ac">
+                <div class="abtn bb ba">我要報名<span><i class="fa fa-check"></i></span></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 p-3 cm">
+            <div class="ca bgw px-3 py-4">
+              <span class="bow">樂齡課程</span>
+              <div id="carouselExampleControls3" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleControls3" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleControls3" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleControls3" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100 br" src="images/b7.png" alt="First slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100 br" src="images/b8.png" alt="Second slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100 br" src="images/b9.png" alt="Third slide">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls3" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls3" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+              <h4 class="tt text-center mt-4">【免費課程】探索心靈奧妙—愛上自然</h4>
+              <p class="text-center ic n b">免費</p>
+              <div class="px-3">
+                <span>時間 | 每日上午9點～12點</span><br>
+                <span>日期 | 2025/03/07</span><br>
+                <span>地點 | 基隆市發財區成功路999號</span><br>
+                <span>講師 | 黃大銘教授</span><br>
+                <!-- <p></p> -->
+              </div>
+              <div class="mt-4 ac">
+                <div class="abtn bb ba">我要報名<span><i class="fa fa-check"></i></span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ============chart============== -->
+    <section id="s3">
+      <div class="container">
+        <div class="an ac">
+          <div class="num ac fc">
+            <span class="bi"><i class="fa fa-chart-bar fa-flip" style="animation-duration: 2s;"></i></span>
+            <span>/</span>
+            <span>0</span>
+            <span>3</span>
+          </div>
+          <div>
+            <div class="nt">Top</div>
+            <div class="tit">熱門排行榜</div>
+            <span>| 2024年12月03日 及時課程報名情況圖</span>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-12 p-5 bgw">
+            <div class="barb an my-4">
+              <div class="bar fe">
+                <span class="mr-4">【免費課程】做出你的夢想—樂齡動手做，共<span class="ic b n bart"></span>人</span>
+              </div>
+            </div>
+            <div class="barb an my-4">
+              <div class="bar fe">
+                <span class="mr-4">【免費課程】香味四溢—妙齡廚房交流會，共<span class="ic b n bart"></span>人</span>
+              </div>
+            </div>
+            <div class="barb an my-4">
+              <div class="bar fe">
+                <span class="mr-4">【免費課程】探索心靈奧妙—愛上自然，共<span class="ic b n bart"></span>人</span>
+              </div>
+            </div>
+            <h3 class="an mt-4">現在最熱門的課程是<span class="ic b" id="hot"></span></h3>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+  <!-- ============information============== -->
+  <section id="s4">
+    <div class="container">
+      <div class="an ac">
+        <div class="num ac fc">
+          <span class="bi"><i class="fa fa-newspaper fa-flip" style="animation-duration: 2s;"></i></span>
+          <span>/</span>
+          <span>0</span>
+          <span>4</span>
+        </div>
+        <div>
+          <div class="nt">Information</div>
+          <div class="tit">樂活資訊站</div>
+          <span>| 各種樂活相關資訊，新聞快訊皆在於此。</span>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-12 bgw p-5">
+          <h1 class="tt mb-5 text-center">時間規劃＆個人成長教練計畫</h1>
+          <div class="day">
+            <table class="table table-hover">
+              <tr>
+                <th class="text-center">月份　</th>
+                <th>活動時間規劃</th>
+                <th>個人成長教練計畫</th>
+              </tr>
+              <tr>
+                <td class="mc b text-center">1月</td>
+                <td><span><i class="fa fa-star mr-2 ic"></i></span> 1 月：1/15 - 樂齡健康體操班，社區運動中心，提升體能與平衡感。</td>
+                <td>
+                  <span class="mc b">健康目標設定</span><br>
+                  <span>主題：制定健康計劃</span><br>
+                  <span>內容：分析現有健康狀況，設定全年健康目標，如運動頻率、體重管理或健康檢查完成率。</span><br>
+                </td>
+              </tr>
+              <tr>
+                <td class="mc b text-center">2月</td>
+                <td><span><i class="fa fa-star mr-2 ic"></i></span> 2 月：2/12 - 銀髮族數位基礎課，數位學習中心，學會使用智慧手機與簡易 APP。</td>
+                <td>
+                  <span class="mc b">學習新技能</span><br>
+                  <span>主題：開啟新興趣</span><br>
+                  <span>內容：選擇一項新技能（如繪畫、音樂或烹飪），開始每週學習，建立學習計劃。</span><br>
+                </td>
+              </tr>
+              <tr>
+                <td class="mc b text-center">3月</td>
+                <td><span><i class="fa fa-star mr-2 ic"></i></span> 3 月：3/18 - 園藝趣味工作坊，社區花園，學習花草栽培與園藝技巧。</td>
+                <td>
+                  <span class="mc b">情感維繫</span><br>
+                  <span>主題：改善家庭與社交關係</span><br>
+                  <span>內容：每週與家人或朋友互動（如吃飯、電話），定期參與社區活動，增進情感交流。</span><br>
+                </td>
+              </tr>
+              <tr>
+                <td class="mc b text-center">4月</td>
+                <td><span><i class="fa fa-star mr-2 ic"></i></span> 4 月：4/22 - 春季營養與健康餐課，烹飪教室，設計符合樂齡需求的健康菜單。</td>
+                <td>
+                  <span class="mc b">心理韌性提升</span><br>
+                  <span>主題：建立正念習慣</span><br>
+                  <span>內容：練習冥想、呼吸法，或參與心理健康課程，提升情緒管理能力。</span><br>
+                </td>
+              </tr>
+              <tr>
+                <td class="mc b text-center">5月</td>
+                <td><span><i class="fa fa-star mr-2 ic"></i></span> 5 月：5/20 - 樂齡退休財務管理講座，社區活動中心，探索退休金管理與投資策略。</td>
+                <td>
+                  <span class="mc b">身體活力挑戰</span><br>
+                  <span>主題：參與健身挑戰</span><br>
+                  <span>內容：參加適合銀髮族的健身活動（如慢跑、瑜伽、水中運動），並記錄進步。</span><br>
+                </td>
+              </tr>
+              <tr>
+                <td class="mc b text-center">6月</td>
+                <td><span><i class="fa fa-star mr-2 ic"></i></span> 6 月：6/17 - 智慧攝影基礎班，文化中心攝影室，捕捉日常與旅行之美。</td>
+                <td>
+                  <span class="mc b">理財與生活規劃</span><br>
+                  <span>主題：年度財務檢視</span><br>
+                  <span>內容：檢查現有財務狀況，設定短期（3 個月）和中期（1 年）的財務目標，尋求專業建議。</span><br>
+                </td>
+              </tr>
+              <tr>
+                <td class="mc b text-center">7月</td>
+                <td><span><i class="fa fa-star mr-2 ic"></i></span> 7 月：7/25 - 夏季泳池健身課，社區游泳館，學習安全的水中運動。</td>
+                <td>
+                  <span class="mc b">自我成就紀錄</span><br>
+                  <span>主題：記錄生活亮點</span><br>
+                  <span>內容：每天記錄一件讓自己開心或滿足的小事，總結月度成就。</span><br>
+                </td>
+              </tr>
+              <tr>
+                <td class="mc b text-center">8月</td>
+                <td><span><i class="fa fa-star mr-2 ic"></i></span> 8 月：8/15 - 創意插畫與水彩課，藝術教室，享受色彩與創作的樂趣。</td>
+                <td>
+                  <span class="mc b">生活環境優化</span><br>
+                  <span>主題：整理與改造居家環境</span><br>
+                  <span>內容：清理不必要的物品，改造生活空間，創造安全舒適的居家氛圍。</span><br>
+                </td>
+              </tr>
+              <tr>
+                <td class="mc b text-center">9月</td>
+                <td><span><i class="fa fa-star mr-2 ic"></i></span> 9 月：9/21 - 樂齡心理健康講座，社區講堂，學會紓解壓力與調適心情。</td>
+                <td>
+                  <span class="mc b">社區貢獻</span><br>
+                  <span>主題：參與志願服務</span><br>
+                  <span>內容：加入當地志工活動，幫助他人，同時豐富自己的生活經歷。</span><br>
+                </td>
+              </tr>
+              <tr>
+                <td class="mc b text-center">10月</td>
+                <td><span><i class="fa fa-star mr-2 ic"></i></span> 10 月：10/12 - 樂活徒步探索，社區公園，參與輕鬆的戶外健行活動。</td>
+                <td>
+                  <span class="mc b">藝術與創意表達</span><br>
+                  <span>主題：完成創意作品</span><br>
+                  <span>內容：專注於藝術創作，如畫作、手作或攝影，完成並展示一件作品。</span><br>
+                </td>
+              </tr>
+              <tr>
+                <td class="mc b text-center">11月</td>
+                <td><span><i class="fa fa-star mr-2 ic"></i></span> 11 月：11/18 - 手作飾品設計班，工藝教室，創作屬於自己的時尚飾品。</td>
+                <td>
+                  <span class="mc b">探索未知</span><br>
+                  <span>主題：進行小旅行</span><br>
+                  <span>內容：規劃一場短期旅行，探索新的地方與文化，擴展視野與生活經驗。</span><br>
+                </td>
+              </tr>
+              <tr>
+                <td class="mc b text-center">12月</td>
+                <td><span><i class="fa fa-star mr-2 ic"></i></span> 12 月：12/10 - 歡樂聖誕聚會，社區文化中心，交流分享並迎接佳節氛圍。</td>
+                <td>
+                  <span class="mc b">年度回顧與展望</span><br>
+                  <span>主題：總結與未來計劃</span><br>
+                  <span>內容：回顧全年成長，記錄完成的目標，設定下一年的新挑戰與願望。</span><br>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="sp"></div>
+      <div class="row mt-5">
+        <div class="container-fluid bgw">
+          <h1 class="tt mt-5 mb-4 text-center">樂活快訊</h1>
+          <ul id="clothingnav1" class="nav nav-tabs" role="tablist">
+            <li class="nav-item"> <a class="nav-link mc b active" href="#home1" id="hometab1" role="tab"
+                data-toggle="tab" aria-controls="home" aria-expanded="true">銀髮族必備的健康管理秘訣</a> </li>
+            <li class="nav-item"> <a class="nav-link mc b" href="#paneTwo1" role="tab" id="hatstab1" data-toggle="tab"
+                aria-controls="hats">樂齡健康飲食</a> </li>
+            <li class="nav-item"> <a class="nav-link mc b" href="#paneTwo2" role="tab" id="hatstab1" data-toggle="tab"
+                aria-controls="hats">退休與投資</a> </li>
+            <li class="nav-item"> <a class="nav-link mc b" href="#paneTwo3" role="tab" id="hatstab1" data-toggle="tab"
+                aria-controls="hats">穩健策略讓財富增值</a> </li>
+          </ul>
+          <!-- Content Panel -->
+          <div id="clothingnavcontent1" class="tab-content">
+            <div role="tabpanel" class="tab-pane fade show active" id="home1" aria-labelledby="hometab1">
+              <div class="th h0"></div>
+              <h1 class="tt text-center my-4">〈健康無憂！銀髮族必備的健康管理秘訣〉</h1>
+              <div class="ww w-100">
+                <div class="col-12 col-md-6 ic st">#銀髮秘笈 #日常健康</div>
+                <div class="col-12 col-md-6 fe">2024/12/01</div>
+              </div>
+              <div class="mt-3">
+                <p>隨著年齡增長，定期健康管理變得尤為重要。有效的健康檢查與日常規劃能幫助您提早預防疾病，維持良好體能。以下是幾個簡單但實用的秘訣：</p>
+                <p class="mc b"><span><i class="fa fa-star mr-2"></i></span>建立健康檢查計劃</p>
+                <p>• 定期進行健康檢查，例如每年一次的全身檢查，包含血壓、血糖與心臟檢測等。</p>
+                <p>• 根據醫師建議增加骨密度檢測與眼科檢查，特別是有家族病史的族群。</p>
+                <p class="mc b"><span><i class="fa fa-star mr-2"></i></span>服藥管理不馬虎</p>
+                <p>• 設置提醒工具（手機鬧鐘或紙質日曆），確保按時服用藥物。</p>
+                <p>• 使用藥盒將每日藥物分類整理，避免忘記或重複服藥。</p>
+                <p class="mc b"><span><i class="fa fa-star mr-2"></i></span>規劃日常運動</p>
+                <p>• 以輕量運動為主，如快走、游泳或伸展瑜伽，每周保持 3-4 次運動頻率。</p>
+                <p>• 參與社區健身課程，增進體能的同時也能促進社交互動。</p>
+                <p>健康管理是長期的過程，透過定期檢查、妥善用藥與適當運動，您將能維持活力，開啟健康的樂齡生活！ </p>
+              </div>
+            </div>
+            <div role="tabpanel" class="tab-pane fade" id="paneTwo1" aria-labelledby="hatstab1">
+              <div class="th h1"></div>
+              <h1 class="tt text-center my-4">〈從餐桌開始，打造樂齡健康生活〉 </h1>
+              <div class="ww w-100">
+                <div class="col-12 col-md-6 ic st">#銀髮秘笈 #健康飲食</div>
+                <div class="col-12 col-md-6 fe">2024/11/22</div>
+              </div>
+              <div class="mt-3">
+                <p>銀髮族的飲食需求與年輕人不同，重點在於提供足夠的營養，同時避免過量的熱量攝取。以下是打造健康飲食的三大關鍵：</p>
+                <p class="mc b"><span><i class="fa fa-star mr-2"></i></span>均衡攝取蛋白質與纖維</p>
+                <p>• 蛋白質對於維持肌肉健康至關重要，每餐可加入雞蛋、魚肉或豆腐。</p>
+                <p>• 多攝取富含纖維的食物，如全穀物、蔬菜與水果，有助於促進腸道健康。</p>
+                <p class="mc b"><span><i class="fa fa-star mr-2"></i></span>控制鹽分與糖分攝取</p>
+                <p>• 避免過多的加工食品，選擇新鮮天然的食材。</p>
+                <p>• 飲料選擇無糖綠茶或白開水，減少含糖飲料的消費。</p>
+                <p class="mc b"><span><i class="fa fa-star mr-2"></i></span>補充關鍵營養素</p>
+                <p>• 鈣與維生素 D：幫助維持骨骼強壯，可從奶類、深綠色蔬菜或補充劑中獲取。</p>
+                <p>• Omega-3 脂肪酸：有助於心血管健康，可從深海魚、亞麻籽油中攝取。</p>
+                <p>透過健康飲食的調整，您不僅能增強免疫力，還能延緩衰老，從餐桌開始享受活力十足的樂齡生活！ </p>
+              </div>
+            </div>
+            <div role="tabpanel" class="tab-pane fade" id="paneTwo2" aria-labelledby="hatstab1">
+              <div class="th h2"></div>
+              <h1 class="tt text-center my-4">〈退休投資三大法則，讓你的錢持續為你工作〉</h1>
+              <div class="ww w-100">
+                <div class="col-12 col-md-6 ic st">#銀髮秘笈 #退休投資</div>
+                <div class="col-12 col-md-6 fe">2024/11/07</div>
+              </div>
+              <div class="mt-3">
+                <p>退休後，雖然收入來源減少，但並不代表財務增值的機會就消失。以下是退休後穩健投資的三大法則，幫助你安全地讓資金持續增長：</p>
+                <p class="mc b"><span><i class="fa fa-star mr-2"></i></span>確保流動性</p>
+                <p>• 投資前，先留出至少 6 個月的緊急備用金，確保隨時能應付突發情況。</p>
+                <p>• 將部分資金放入短期工具（如定存或貨幣基金），保持靈活性。</p>
+                <p class="mc b"><span><i class="fa fa-star mr-2"></i></span>選擇低風險工具</p>
+                <p>• 退休後的投資目標應以穩定收益為主，適合的選擇包括債券型基金、配息型基金或高評級公司債。</p>
+                <p>• 避免投入高風險、高波動的股市，以防財務大幅縮水。</p>
+                <p class="mc b"><span><i class="fa fa-star mr-2"></i></span>分散投資，降低風險</p>
+                <p>• 將資金分配到多種資產，例如定存、基金和實體資產（如不動產），以分散單一市場風險。</p>
+                <p>• 退休後的投資應遵循「穩中求進」的原則，確保資金安全的同時，為未來的生活提供更多財務支援。記住，讓錢為你工作是一場長期計劃！ </p>
+              </div>
+            </div>
+            <div role="tabpanel" class="tab-pane fade" id="paneTwo3" aria-labelledby="hatstab1">
+              <div class="th h3"></div>
+              <h1 class="tt text-center my-4">〈退休金怎麼算？三個步驟幫你找到答案〉</h1>
+              <div class="ww w-100">
+                <div class="col-12 col-md-6 ic st">#銀髮秘笈 #退休金規劃</div>
+                <div class="col-12 col-md-6 fe">2024/10/31</div>
+              </div>
+              <div class="mt-3">
+                <p>退休金規劃的第一步：從了解需求開始:</p>
+                <p>退休生活的品質很大程度上取決於財務規劃是否周全。許多人對「需要多少退休金」這個問題感到困惑，其實，透過以下三個步驟，你可以輕鬆找到答案：</p>
+                <p class="mc b"><span><i class="fa fa-star mr-2"></i></span>預估每月支出</p>
+                <p>• 列出退休後的基本支出（如飲食、房租、水電費），以及娛樂或旅行等額外支出。</p>
+                <p>• 記住，醫療支出在老年階段可能會增加，需要適當預留。</p>
+                <p class="mc b"><span><i class="fa fa-star mr-2"></i></span>計算退休年數</p>
+                <p>• 假設退休年齡為 65 歲，壽命預計 85 歲，那麼需要至少 20 年的生活資金。</p>
+                <p>• 將每月支出乘以 12 個月，再乘以退休年數，即可得出大致需求金額。</p>
+                <p class="mc b"><span><i class="fa fa-star mr-2"></i></span>檢視現有資源</p>
+                <p>• 包括勞保退休金、定存、股票或其他投資，總結現有財務狀況，計算資金缺口。</p>
+                <p>提早規劃退休金，可以避免未來生活因資金不足而壓力重重。現在就開始計算，讓你的退休生活更有保障與品質！</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ============board============== -->
+  <section id="s5">
+    <div class="an ac">
+      <div class="num ac fc">
+        <span class="bi"><i class="fa fa-comments fa-flip" style="animation-duration: 2s;"></i></span>
+        <span class="w">/</span>
+        <span class="w">0</span>
+        <span class="w">5</span>
+      </div>
+      <div>
+        <div class="nt">Board</div>
+        <div class="tit">長春留言板</div>
+        <span class="w">| 您的留言，既是我們進步的最大動力。</span>
+      </div>
+    </div>
+    <div class="my-5 ac w-100">
+      <div class="abtn" onclick="roo();f2()">我要留言<span><i class="fa fa-comment"></i></span></div>
+    </div>
+    <div class="row mt-5">
+      <div class="pool">
+        <div class="chat mx-2 p-3">
+          <div class="if ac"><img src="images/icon1.png" alt="使用者頭像"></div>
+          <div>
+            <div class="user">台北金城武</div>
+            <p>課程很有趣，我已經報名了！</p>
+          </div>
+        </div>
+        <div class="chat mx-2 p-3">
+          <div class="if ac"><img src="images/icon2.png" alt="使用者頭像"></div>
+          <div>
+            <div class="user">基隆蔡依林</div>
+            <p>這網站真是太方便了！</p>
+          </div>
+        </div>
+        <div class="chat mx-2 p-3">
+          <div class="if ac"><img src="images/icon3.png" alt="使用者頭像"></div>
+          <div>
+            <div class="user">火鍋五月天</div>
+            <p>很有用的資訊，已推薦</p>
+          </div>
+        </div>
+        <div class="chat mx-2 p-3">
+          <div class="if ac"><img src="images/icon1.png" alt="使用者頭像"></div>
+          <div>
+            <div class="user">台北金城武</div>
+            <p>課程很有趣，我已經報名了！</p>
+          </div>
+        </div>
+        <div class="chat mx-2 p-3">
+          <div class="if ac"><img src="images/icon2.png" alt="使用者頭像"></div>
+          <div>
+            <div class="user">基隆蔡依林</div>
+            <p>這網站真是太方便了！</p>
+          </div>
+        </div>
+        <div class="chat mx-2 p-3">
+          <div class="if ac"><img src="images/icon3.png" alt="使用者頭像"></div>
+          <div>
+            <div class="user">火鍋五月天</div>
+            <p>很有用的資訊，已推薦</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="text-center" id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4 my-5 my-md-0">
+            <span class="fi"><i class="fa fa-phone"></i></span>
+            <hr>
+            <div class="ac fc ft">
+              <div class="st">
+                <a href="http://line.com" target="_blank"><i class="fa-brands fa-line mr-2"></i>LINE官方帳號</a><br>
+                <a href="http://facebook.com" target="_blank"><i class="fa-brands fa-facebook mr-2"></i>官方粉絲團</a><br>
+                <a href="mailto:#"><i class="fa fa-envelope mr-2"></i>寫信給我</a><br>
+                <p><i class="fa fa-phone mr-2"></i>0800-123-123</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 my-5 my-md-0">
+            <span class="fi"><i class="fa fa-location-dot"></i></span>
+            <hr>
+            <div class="ac fc ft">
+              <p>基隆市發財區成功路999號</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 my-5 my-md-0">
+            <span class="fi"><i class="fa fa-bookmark"></i></span>
+            <hr>
+            <div class="ac fc ft">
+              <a href="#s1" class="aan">關於退休</a>
+              <a href="#s2" class="aan">樂齡課程</a>
+              <a href="#s3" class="aan">熱門排行榜</a>
+              <a href="#s4" class="aan">樂活資訊站</a>
+              <a href="#s5" class="aan">長春留言板</a>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-12">
+            <p>2024 © 就是愛樂活 使用CSS、jQuery製作，載用RWD響應式設計</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </section>
+  <!-- ============robot============== -->
+  <div class="robot">
+    <div class="robox">
+      <div class="rot p-3">
+        <div class="roh ac fc">
+          <span class="rohi"><i class="fa-brands fa-reddit"></i></span>
+          <h3>您好！請問需要協助嗎？</h3>
+          <span>我是您的客服BOT，您可以點擊或輸入您需要的服務，也歡迎向我諮詢任何問題！</span>
+          <div class="abtn my-4 rt" id="lobtn" onclick="login()">登入後解鎖更多功能<span><i class="fa fa-unlock"></i></span>
+          </div>
+        </div>
+        <div class="ro my-2">
+          <div class="rosay my-2">您可以問我"<span class="ic b">退休金規劃秘笈</span>"、"<span class="ic b">樂齡生活</span>"，或"<span
+              class="ic b">樂齡課程</span>"...</div>
+        </div>
+        <div class="roform my-2">
+          <div class="rosay my-2">
+            請輸入您的暱稱，選擇您的頭像，並留下您的意見及想法！
+            <form action="">
+              <div class="my-4 ar">
+                <span class="mr-2"><i class="fa fa-user"></i></span>
+                <input type="text" class="rt form-control" id="usn">
+              </div>
+              <div class="my-4 ar">
+                <span class="mr-2"><i class="fa fa-image"></i></span>
+                <div class="rt">
+                  <label>
+                    <input type="radio" checked name="usi" value="<img src='images/icon1.png' alt='使用者頭像'>">
+                    <img src="images/icon1.png" alt="使用者頭像" class="br mx-2" width="40">
+                  </label>
+                  <label>
+                    <input type="radio" name="usi" value="<img src='images/icon2.png' alt='使用者頭像'>">
+                    <img src="images/icon2.png" alt="使用者頭像" class="br mx-2" width="40">
+                  </label>
+                  <label>
+                    <input type="radio" name="usi" value="<img src='images/icon3.png' alt='使用者頭像'>">
+                    <img src="images/icon3.png" alt="使用者頭像" class="br mx-2" width="40">
+                  </label>
+                </div>
+              </div>
+              <div class="my-4 ar">
+                <span class="mr-2"><i class="fa fa-feather"></i></span>
+                <textarea class="rt form-control" id="usc"></textarea>
+              </div>
+              <div class="my-4 ar">
+                <button class="abtn" type="reset">重設<span><i class="fa fa-reply"></i></span></button>
+                <button class="abtn" type="button" onclick="chat()">送出<span><i
+                      class="fa fa-paper-plane"></i></span></button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="rof">
+        <div class="menu ac">
+          <div onclick="f1()" class="ac fc"><span><i class="fa fa-chart-bar"></i></span>熱門排行榜</div>
+          <div onclick="f2()" class="ac fc"><span><i class="fa fa-comment"></i></span>我要留言</div>
+          <div onclick="f3()" class="ac fc"><span><i class="fa fa-headphones"></i></span>轉接客服</div>
+        </div>
+        <div class="roq ac">
+          <div class="rt form-control" contenteditable="true" id="box" onkeydown="keyin(event)"></div>
+          <span class="cu ac" onclick="ans()"><i class="fa fa-paper-plane"></i></span>
+        </div>
+      </div>
+    </div>
+    <div class="roi">
+      <span class="roo ac cu fa-beat" onclick="roo()" title="小愛AI"><i class="fa-reddit fa-brands fa-beat"></i></span>
+      <span class="roc ac cu" onclick="roc()" title="關閉"><i class="fa fa-xmark"></i></span>
+    </div>
+  </div>
+  <!-- ============modal============== -->
+  <div class="modal ac" id="login">
+    <div class="mi">
+      <div class="ac fc">
+        <h1 class="tt">登入成功</h1>
+      </div>
+      <hr>
+      <div class="ac fc">
+        <p>您已登入會員帳號：<span class="ic n b">VIPB006</span>。</p>
+        <p>您現在已解鎖了<span class="ic n b">報名</span>及<span class="ic n b">留言</span>功能，</p>
+        <p>並獲得了免費訂閱我們的<span class="ic n b">月刊電子報</span>的機會！</p>
+        <label>
+          <input type="checkbox" name="" id=""> 我要訂閱月刊電子報
+        </label>
+        <div class="mt-3 abtn" onclick="lo()">關閉<span><i class="fa fa-xmark"></i></span></div>
+      </div>
+    </div>
+  </div>
+  <div class="modal ac" id="if">
+    <div class="mi">
+      <img src="images/ad.png" alt="優惠圖片" class="w-100">
+      <div class="ac fc">
+        <h1 class="tt mt-4">好康優惠</h1>
+      </div>
+      <hr>
+      <div class="ac fc">
+        <p>您已獲得<span class="ic n b">限時好康優惠</span>。</p>
+        <p>只要您現在至基隆活動中心使用使此QRcode，</p>
+        <p>即可兌換<span class="ic n b">可愛銀髮環保袋乙個</span>！</p>
+        <span class="q"><i class="fa fa-qrcode"></i></span>
+        <div class="mt-3 abtn cabtn">關閉<span><i class="fa fa-xmark"></i></span></div>
+      </div>
+    </div>
+  </div>
+  <div class="modal ac" id="shop">
+    <div class="mi">
+      <div class="ac fc">
+        <h1 class="tt">報名成功</h1>
+      </div>
+      <hr>
+      <div class="ac fc">
+        <p>您已報名了<span class="ic n b" id="tm"></span>活動。</p>
+        <p>請留意課程開始時間及上課地點。</p>
+        <p>點擊下方按鈕確認報名。</p>
+        <div class="mt-3 abtn" onclick="coc()">確認報名<span><i class="fa fa-check"></i></span></div>
+      </div>
+    </div>
+  </div>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap-4.4.1.js"></script>
+  <script src="js/all.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
